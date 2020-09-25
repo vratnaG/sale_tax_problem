@@ -106,7 +106,7 @@ public static void outputFormat(String[] data,double finalPrice){
 private static DecimalFormat df2 = new DecimalFormat("#.##");
 
 public static double decimalPlace(double value){
-return  (float) Math.ceil(value / 0.05f) * 0.05f;
+return  (double) Math.ceil(value / 0.05f) * 0.05f;
 }
 
 } 
